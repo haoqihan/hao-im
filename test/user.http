@@ -1,0 +1,13 @@
+### 注册
+POST http://127.0.0.1:8000/user/register
+Content-Type: application/x-www-form-urlencoded
+
+mobile=1234&passwd=1234
+
+###登录
+POST http://127.0.0.1:8000/user/login
+Content-Type: application/x-www-form-urlencoded
+
+mobile=183000000&passwd=1234562
+
+###
